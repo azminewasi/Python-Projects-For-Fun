@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Xave</title>
+    </head>
+    <body onload=init() onresize=resize()>
+        <canvas></canvas>
+        <a href='https://en.m.wikipedia.org/wiki/Electromagnetic_radiation'>em waves on wiki</a>
+        <input type=checkbox id=show-electric checked>
+        <label for=show-electric style='color:yellow'>
+          show electric</label><br>
+        <input type=checkbox id=show-magnetic checked>
+        <label for=show-magnetic style='color:lightblue'>
+          show magnetic</label><br>
+        <input type=checkbox id=show-result checked>
+        <label for=show-result style='color:pink'>
+          show result wave</label><br>
+        <input type=checkbox id=rotate checked>
+        <label for=rotate>rotate view</label><br>
+        <span>phase difference:<br><input type=range min=0 max=240 value=0 id=phase oninput=resize()></span>
+    </body>
+</html>
