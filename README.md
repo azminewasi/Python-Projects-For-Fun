@@ -8,3 +8,4 @@
 6. QR Scanner Py
 7. See wifi pass
 8. Sending  SMS Tuilio
+9. PEDESTRIAN DETECTION
