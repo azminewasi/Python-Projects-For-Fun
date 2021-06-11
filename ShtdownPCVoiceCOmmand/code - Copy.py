@@ -18,12 +18,11 @@ class Gfg:
 
 			# Number pf seconds of non-speaking audio before 
 			# a phrase is considered complete 
-			r.pause_threshold = 0.7
+			r.pause_threshold = 2
 			audio = r.listen(source) 
 
 			# Voice input is identified 
 			try: 
-
 				# Listening voice commands in indian english 
 				print("Recognizing") 
 				Query = r.recognize_google(audio, language='en-in') 
@@ -59,7 +58,7 @@ class Gfg:
 		self.Speak("do u want to switch off the computer sir") 
 
 		# Input voice command 
-		take = self.takeCommand() 
+		take = self.takeCommands() 
 		choice = take 
 		if choice == 'yes': 
 
