@@ -10,11 +10,11 @@ def message():
 	return msg
 
 while True:
-	printmsg="#PUBGMOBILE  #PMCC IGN:1HP丨表丨EAGLE ID:5506983947"
+	printmsg="FARI"
 	pyautogui.typewrite(printmsg)
 	sleep(2)
 	pyautogui.typewrite("\n")
-	sleep(10)
+	sleep(2)
 	x=x-1
 	if x==0:
 		break
